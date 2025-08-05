@@ -11,7 +11,7 @@ group = "io.github.gaming32"
 version = "1.0.3"
 
 application {
-    mainClass.set("io.github.gaming32.additiveinstaller.MainKt")
+    mainClass.set("io.github.prism.sparkleinstaller.MainKt")
 }
 
 repositories {
