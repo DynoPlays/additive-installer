@@ -36,8 +36,7 @@ fun main() {
         }
     }
 
-    val additive = Modpack("additive")
-    val adrenaline = Modpack("adrenaline")
+    val sparkle = Modpack("shiny.sparkle")
     var selectedPack = additive
 
     val installDestChooser = JFileChooser(PackInstaller.DOT_MINECRAFT.toString()).apply {
@@ -106,7 +105,7 @@ fun main() {
         val includeFeatures = JCheckBox(I18N.getString("include.non.performance.features")).apply {
             isSelected = true
             addActionListener {
-                selectedPack = if (isSelected) additive else adrenaline
+                selectedPack = sparkle
                 title = selectedPack.windowTitle
                 iconImage = selectedPack.image
                 iconLabel.icon = ImageIcon(selectedPack.image)
