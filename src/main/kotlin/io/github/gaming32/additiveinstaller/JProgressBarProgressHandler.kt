@@ -1,4 +1,4 @@
-package io.github.gaming32.additiveinstaller
+package io.github.prism.sparkleinstaller
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import javax.swing.JProgressBar
